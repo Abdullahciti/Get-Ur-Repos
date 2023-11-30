@@ -6,6 +6,12 @@
 body{
     font-family: tahoma, arial;
 }
+
+@media (max-width:767px) {
+    .repos-container{
+        max-width: 450px;
+    }
+}
 .repos-container{
     width: 800px;
     background: #f6f6f6;
@@ -66,6 +72,19 @@ body{
     width: 90px;
     text-align: center;
     padding: 4px;
+}
+@media (max-width:767px) {
+    .repos-container .show-data .main-div a,
+.repos-container .show-data .main-div span {
+    float: right;
+    margin-left: 4px;
+    border-radius: 4px;
+    color: #FFF;
+    font-size: 12px;
+    width: fit-content;
+    text-align: center;
+    padding: 8px;
+}
 }
 .repos-container .show-data .main-div a {
     text-decoration: none;
